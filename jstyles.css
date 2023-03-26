@@ -1,0 +1,152 @@
+*{ padding: 0;
+    font-family:Arial, Helvetica, sans-serif;}
+   
+.headnav li{
+    list-style-type: none;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    border-radius: 3px solid blue;
+    background-color: pink;
+    padding: 0.5rem;
+    
+    text-align: right;
+}
+li:hover{
+    background-color:white;
+    text-decoration: none;
+}
+#section1  p,h3{
+    text-align: center;
+}
+#section1 h3{
+    font-size:xx-large;
+}
+#section1 p{
+color: rgb(230, 12, 12);
+padding-top: 1rem;
+margin-bottom: 1rem;
+}
+#section1 p.p2{
+    color: grey;
+}
+#section1 .getstarted{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(238, 14, 89);
+    color: white;
+    margin-bottom: 1rem;
+}
+#section1{
+    border-bottom: 1px solid gray;
+    display: block;
+    background-color: rgb(190, 190, 216);
+}
+#section2{
+text-align: center;
+border-bottom: 1px solid grey;
+margin-bottom: 2rem;
+}
+#section2 div{
+    display: inline-block;
+    padding-right: 2rem;
+    justify-content:center;
+}
+#section2 h5,p{
+    color: blue;
+}
+#section2 h5{
+    line-height: 30px
+}
+.section3 h3 a{
+    color: rgb(253, 108, 176);
+}
+.section3 p{
+    color: blue;
+    text-align: center;
+}
+#img{
+    width: 20rem;
+}
+.section3 h2{
+    text-align: center;
+    color: rgb(233, 38, 152);
+}
+.section3 h5 a{
+    color: rgb(209, 52, 78);
+}
+.section3 div.techup{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 4rem;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 5rem 10rem 0.5rem 10rem;
+}
+.section3 nav{
+    background-color: whitesmoke;
+    margin: 0
+}
+.section3 nav.imgdiv1 img{
+    width: 10rem;
+}
+.section3 nav.imgdiv1{
+    text-align: center;
+}
+.imgdiv1 div{
+    display: inline-block;
+    flex-flow: row wrap;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(230, 32, 65);
+    text-align: center;
+}
+.section3 nav.imgdiv2 img{
+    width: 10rem;
+}
+.section3 nav.imgdiv2{
+    text-align: center;
+}
+.imgdiv2 div{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(230, 32, 65);
+    text-align: center;}
+.section3 nav.imgdiv3 img{
+    width: 10rem;
+}
+.section3 nav.imgdiv3{
+    text-align: center;
+}
+.imgdiv3 div{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(230, 32, 65);
+    text-align: center;}
+    .section4 h2{
+        color: rgb(231, 26, 60);
+        text-align: center;
+    }
+    .section4 p{
+        text-align: center;
+    }
+    legend{
+        color: rgb(235, 56, 85);
+        text-align: center;
+    }
+    form{
+        display: flexbox;
+        flex-wrap: nowrap;
+        flex-basis: 10%;
+        margin: 2rem 7rem;
+        text-align: center;
+    }
+    button{
+        font-size: larger;
+        color: whitesmoke;
+        background-color: rgb(236, 17, 53);
+    }
+    footer{
+        background-color: rgb(231, 31, 64);
+    }
