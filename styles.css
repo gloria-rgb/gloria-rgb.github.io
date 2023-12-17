@@ -1,0 +1,41 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.container1{
+    background-color: white;
+}
+
+nav.headerlines{
+    display: flex;
+justify-content: space-between;
+}
+
+div.makebold{
+    font: 1em sans-serif;
+}
+div a{
+text-decoration: none;
+color: #000;
+}
+
+div a:hover{
+    color: blue;
+}
+
+#h4{
+    color: #44c3eb;
+    font: poppins;
+    font-weight: 600;
+    size: 30px;
+    line-height: 45px;
+}
+#buynow{
+    text-align: center;
+    color:#E87A14;
+    width: 193px;
+    height: 76px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
